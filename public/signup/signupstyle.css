@@ -1,0 +1,95 @@
+
+body {
+  background-color: #ECF2FF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  max-width: 430px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  background: #FFF;
+}
+
+header {
+  font-size: 38px;
+  font-weight: 600;
+  color : #232836;
+  /* color: #4070f4; */
+}
+
+.line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background-color: #d4d4d4;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form .field {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.field input,
+.field button{
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+
+.field button,
+.field input {
+  padding: 0 15px;
+  border: 1px solid#CACACA;
+}
+
+.field button {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #4070f4;
+}
+
+.form-link{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-link span,
+.form-link a{
+  font-size: 14px;
+  font-weight: 400;
+  color: #232836;
+}
+
+.form a {
+  color: #0171d3;
+  text-decoration: none;
+}
+.form a:hover {
+  text-decoration: underline;
+}
